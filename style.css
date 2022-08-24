@@ -53,22 +53,50 @@ padding-bottom: 10px;
 }
 .donate-amount{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 40px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+
+    
 }
 .amount{
     width: 80px;
     height: 80px;
-    border: 0px solid red;
-    background:rgb(139, 234, 247);
+    border: none;
     margin: 10px 10px;
     text-align: center;
     justify-content: center;
     padding: 20px 20px ;
-    font-size: 25px;
+    font-size: 35px;
+    background: rgb(253, 242, 242);
 }
 
+.input-area{
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 10px; 
+    text-decoration: solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.input-area input{
+    border: none;
+    font-size: 25px;
+}
+.btn{
+    background-color: tomato;
+    color:white;
+    margin: 15px 15px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
 .donate-plan{
     text-align: center;
     justify-content:center;
@@ -78,6 +106,7 @@ padding-bottom: 10px;
 .donate-plan p{
 padding-left: 100px;
 padding-right: 100px;
+text-align: center;
 }
 .card{
 
@@ -117,4 +146,63 @@ padding-right: 100px;
     background-color:rgb(204, 243, 141);
     font-size: 16px;
     border-radius: 10px;
+}
+.my-update{
+    text-align: center;
+    justify-content:center;
+    margin: 5px ;
+    padding: 20px 20px;
+}
+.my-update p{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.other-activities{
+    text-align: center;
+    justify-content:center;
+    margin: 5px ;
+    padding: 20px 20px;   
+  
+}
+.other-activities p{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;  
+ 
+}
+.other-activities img{
+    height: 400px;
+    width: 450px;
+}
+
+.container{
+    display: flex;
+    width: 850px;
+    height: 200px;
+    background:aquamarine;
+    align-items:center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.input{
+    display: inline;
+    border: none;
+    background-color: dimgray;
+}
+.footer-area{
+    margin-top: 80px ;
+    padding: 10px 10px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background: rgb(7, 10, 39);
+}
+.footer-area h2{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-area p{
+    color: aliceblue;
 }
